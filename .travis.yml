@@ -1,0 +1,6 @@
+language: android
+dist: trusty
+script:
+  - chmod +x ./run-test-on-sauce.sh
+  - ./run-test-on-sauce.sh
+
